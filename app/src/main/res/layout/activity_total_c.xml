@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cf1470"
+    tools:context="com.cgpacalc.ummehabiba.cgpacalculator.TotalCActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top">
+
+        <TextView
+            android:id="@+id/totalC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Total CGPA"
+            android:layout_marginTop="3dp"
+            android:textSize="29sp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            />
+
+        <TextView
+            android:id="@+id/tvt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="25dp"
+            android:layout_below="@+id/totalC"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:textColor="#15020c" />
+
+        <Button
+            android:id="@+id/btnSum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/tvt"
+            android:layout_marginLeft="84dp"
+            android:layout_marginStart="84dp"
+            android:textSize="17sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="14dp"
+            android:text="Calculate CGPA" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1st Semester"
+            android:layout_below="@id/btnSum"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="29dp"
+            android:layout_marginBottom="3dp"
+            android:layout_alignParentLeft="true"
+            android:textSize="27sp"
+            android:typeface="serif"
+            android:textColor="@android:color/black"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="29dp" />
+
+        <EditText
+            android:id="@+id/myE1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_below="@+id/btnSum"
+            android:layout_toRightOf="@+id/textView"
+            android:layout_marginLeft="57dp"
+            android:hint="CGPA"
+            />
+
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView"
+            android:text="2nd Semester"
+            android:layout_marginStart="29dp"
+            android:layout_marginBottom="3dp"
+            android:layout_alignParentLeft="true"
+            android:textSize="27sp"
+            android:typeface="serif"
+            android:textColor="@android:color/black"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="29dp"  />
+
+        <EditText
+            android:id="@+id/myE2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_below="@+id/myE1"
+            android:layout_toRightOf="@+id/textView"
+            android:layout_marginLeft="57dp"
+            android:hint="CGPA"
+            />
+
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView1"
+            android:text="3rd Semester"
+            android:layout_marginStart="29dp"
+            android:layout_marginBottom="3dp"
+            android:layout_alignParentLeft="true"
+            android:textSize="27sp"
+            android:typeface="serif"
+            android:textColor="@android:color/black"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="29dp"  />
+
+
+        <EditText
+            android:id="@+id/myE3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/myE2"
+            android:layout_alignStart="@+id/myE2"
+            android:layout_below="@+id/myE2"
+            android:inputType="numberDecimal"
+            android:hint="CGPA"/>
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView2"
+            android:text="4th Semester"
+            android:layout_marginStart="29dp"
+            android:layout_marginBottom="3dp"
+            android:layout_alignParentLeft="true"
+            android:textSize="27sp"
+            android:typeface="serif"
+            android:textColor="@android:color/black"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="29dp"  />
+
+        <EditText
+            android:id="@+id/myE4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/myE3"
+            android:layout_alignStart="@+id/myE3"
+            android:layout_below="@+id/myE3"
+            android:inputType="numberDecimal"
+            android:hint="CGPA"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView3"
+            android:text="5th Semester"
+            android:layout_marginStart="29dp"
+            android:layout_marginBottom="3dp"
+            android:layout_alignParentLeft="true"
+            android:textSize="27sp"
+            android:typeface="serif"
+            android:textColor="@android:color/black"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="29dp"  />
+
+        <EditText
+            android:id="@+id/myE5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/myE4"
+            android:layout_alignStart="@+id/myE4"
+            android:layout_below="@+id/myE4"
+            android:inputType="numberDecimal"
+            android:hint="CGPA"/>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView4"
+            android:text="6th Semester"
+            android:layout_marginStart="29dp"
+            android:layout_marginBottom="3dp"
+            android:layout_alignParentLeft="true"
+            android:textSize="27sp"
+            android:typeface="serif"
+            android:textColor="@android:color/black"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="29dp"  />
+
+        <EditText
+            android:id="@+id/myE6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/myE5"
+            android:layout_alignStart="@+id/myE5"
+            android:layout_below="@+id/myE5"
+            android:inputType="numberDecimal"
+            android:hint="CGPA"
+            />
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView5"
+            android:text="7th Semester"
+            android:layout_marginStart="29dp"
+            android:layout_marginBottom="3dp"
+            android:layout_alignParentLeft="true"
+            android:textSize="27sp"
+            android:typeface="serif"
+            android:textColor="@android:color/black"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="29dp"  />
+
+        <EditText
+            android:id="@+id/myE7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/myE6"
+            android:layout_alignStart="@+id/myE6"
+            android:layout_below="@+id/myE6"
+            android:inputType="numberDecimal"
+            android:hint="CGPA"/>
+
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView6"
+            android:text="8th Semester"
+            android:layout_marginStart="29dp"
+            android:layout_marginBottom="3dp"
+            android:layout_alignParentLeft="true"
+            android:textSize="27sp"
+            android:typeface="serif"
+            android:textColor="@android:color/black"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="29dp"  />
+
+        <EditText
+            android:id="@+id/myE8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/myE7"
+            android:layout_alignStart="@+id/myE7"
+            android:layout_below="@+id/myE7"
+            android:inputType="numberDecimal"
+            android:hint="CGPA"/>
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

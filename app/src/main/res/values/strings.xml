@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name" color="@android:color/black">CGPA Calculator</string>
+
+    <string-array name="names">
+        <item> CGPA </item>
+        <item> 4.00</item>
+        <item> 3.75</item>
+        <item> 3.50</item>
+        <item> 3.25</item>
+        <item> 3.00</item>
+        <item> 2.75</item>
+        <item> 2.50</item>
+        <item> 2.25</item>
+        <item> 2.00</item>
+        <item> 0.00</item>
+
+    </string-array>
+
+</resources>

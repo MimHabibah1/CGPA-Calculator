@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cf1470"
+    tools:context="com.cgpacalc.ummehabiba.cgpacalculator.firstActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top">
+
+
+        <TextView
+            android:id="@+id/firstcgpa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="3dp"
+            android:text="CGPA of 1st Semester"
+            android:textColor="#fff"
+            android:textSize="29sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/firstcgpa"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:textColor="#15020c"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/firstSum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv1"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="84dp"
+            android:layout_marginStart="84dp"
+            android:layout_marginTop="14dp"
+            android:text="Calculate"
+            android:textColor="@android:color/black"
+            android:textSize="17sp" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/firstSum"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="15dp"
+            android:padding="5dp"
+            android:text="Structured Programming Language "
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:typeface="serif" />
+
+
+        <Spinner
+            android:id="@+id/first1stS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/firstSum"
+            android:layout_marginTop="19dp"
+            android:layout_toRightOf="@+id/textView"
+
+            />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/textView"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="11dp"
+            android:padding="5dp"
+            android:text="SPL Lab"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:typeface="serif" />
+
+
+        <Spinner
+            android:id="@+id/first2ndS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/first1stS"
+android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/textView1"
+
+            />
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/textView1"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="11dp"
+            android:padding="5dp"
+            android:text="Electrical and Electronic Circuit "
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:typeface="serif" />
+
+
+        <Spinner
+            android:id="@+id/first3rdS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/first2ndS"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/textView2"
+
+            />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/textView2"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="11dp"
+            android:padding="5dp"
+            android:text="Calculus"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:typeface="serif" />
+
+
+        <Spinner
+            android:id="@+id/first4thS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/first3rdS"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/textView3"
+
+            />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/textView3"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="11dp"
+            android:padding="5dp"
+            android:text="Physics"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:typeface="serif" />
+
+
+        <Spinner
+            android:id="@+id/first5thS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/first4thS"
+            android:layout_toRightOf="@id/textView4"
+
+            />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/textView4"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="11dp"
+            android:padding="5dp"
+            android:text="English"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:typeface="serif" />
+
+
+        <Spinner
+            android:id="@+id/first6thS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/first5thS"
+            android:layout_toRightOf="@id/textView5"
+
+            />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/textView5"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="11dp"
+            android:padding="5dp"
+            android:text="Electrical and Electronic Circuit Lab"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:typeface="serif" />
+
+
+        <Spinner
+            android:id="@+id/first7thS"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/first6thS"
+            android:layout_toRightOf="@id/textView6"
+
+            />
+
+
+    </RelativeLayout>
+
+</ScrollView>
